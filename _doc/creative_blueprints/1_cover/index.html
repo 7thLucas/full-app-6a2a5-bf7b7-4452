@@ -1,0 +1,46 @@
+<style>
+.mode-landscape .sl-cover { flex-direction: row; }
+.mode-portrait .sl-cover { flex-direction: column; }
+.mode-portrait .sl-cover-left { width: 100% !important; }
+.mode-portrait .sl-cover-right { width: 100% !important; height: 38%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-cover w-full h-full flex">
+
+    <!-- Left content column -->
+    <div class="sl-cover-left flex flex-col justify-between p-12" style="width:58%">
+
+      <!-- Badge -->
+      <span class="inline-flex items-center gap-2 text-xs font-bold tracking-widest uppercase px-3 py-1.5 rounded-full w-fit" style="background:#d1fae5; color:#065f46">
+        🌿 AI Forage Chatbot
+      </span>
+
+      <!-- Headline + tagline -->
+      <div>
+        <h1 class="font-black leading-tight mb-5" style="font-size:2.8rem; color:#0f172a">
+          Know Your Pasture.<br>
+          <span style="color:#065f46">Protect Your Herd.</span>
+        </h1>
+        <p class="text-lg leading-relaxed" style="color:#475569; max-width:400px">
+          An AI-powered chatbot that identifies forage plants in seconds — giving farmers and ranchers instant, actionable feeding guidance.
+        </p>
+      </div>
+
+      <!-- Attribution -->
+      <data-attribution />
+
+    </div>
+
+    <!-- Right visual column -->
+    <div class="sl-cover-right flex-1 relative overflow-hidden">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=lush%20green%20pasture%20diverse%20forage%20grasses%20alfalfa%20clover%20golden%20hour%20sunlight%20farm%20agricultural%20landscape%20photorealistic"
+        alt="Forage pasture"
+        class="w-full h-full object-cover"
+      />
+      <!-- Blend edge into white -->
+      <div class="absolute inset-0" style="background:linear-gradient(to right, white 0%, transparent 38%)"></div>
+    </div>
+
+  </div>
+</section>
