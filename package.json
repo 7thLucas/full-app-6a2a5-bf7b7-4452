@@ -70,5 +70,8 @@
   },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "overrides": {
+    "react-router-dom": "^7.0.0"
   }
 }
