@@ -1,4 +1,4 @@
-# Forage ID Chatbot — Product Overview
+# ForageIQ — Product Overview
 
 ## What It Is
 A conversational chatbot application that helps farmers, ranchers, and agricultural professionals instantly identify forage plants. Users describe a plant or upload a photo through a chat interface; the chatbot returns a species identification, nutritional profile, toxicity status, and feeding guidance for their livestock.
