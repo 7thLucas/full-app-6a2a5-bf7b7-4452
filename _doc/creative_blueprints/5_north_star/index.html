@@ -1,0 +1,88 @@
+<section class="w-full h-full overflow-auto bg-white flex flex-col p-10">
+
+  <!-- Slide header -->
+  <div class="flex items-start justify-between mb-5" style="flex-shrink:0">
+    <div>
+      <p class="text-xs font-bold tracking-widest uppercase" style="color:#059669">North Star Metric</p>
+      <h2 class="font-black mt-1" style="font-size:1.8rem; color:#0f172a">Weekly Verified Operations</h2>
+    </div>
+    <span class="text-xs font-semibold px-3 py-1.5 rounded-full" style="background:#fef9c3; color:#92400e; border:1px solid #fde68a; white-space:nowrap; margin-top:4px">
+      Projected impact — based on your inputs
+    </span>
+  </div>
+
+  <!-- Two-column body -->
+  <div class="flex gap-5 min-h-0" style="flex:1">
+
+    <!-- Left: Operation + Formula -->
+    <div class="flex flex-col gap-4" style="width:55%">
+
+      <!-- Operation definition -->
+      <div class="rounded-xl p-5" style="background:#f0fdf4; border:1px solid #bbf7d0; flex-shrink:0">
+        <p class="text-xs font-bold tracking-widest uppercase mb-2" style="color:#065f46">The Verified Operation</p>
+        <p class="font-bold text-base" style="color:#0f172a">Forage Identification Completed</p>
+        <p class="text-xs leading-relaxed mt-1" style="color:#475569">
+          A user submits a plant description or photo and receives a complete response: species name, nutritional profile, toxicity status, livestock suitability, and feeding guidance.
+        </p>
+      </div>
+
+      <!-- WVO Formula -->
+      <div class="rounded-xl p-5 flex flex-col" style="background:#1e293b; flex:1">
+        <p class="text-xs font-bold tracking-widest uppercase mb-4" style="color:#64748b">WVO Formula</p>
+
+        <!-- Formula row: symbolic -->
+        <div class="flex items-center gap-2 flex-wrap mb-3">
+          <span class="text-xs font-bold px-2.5 py-1 rounded-full" style="background:#065f46; color:#d1fae5">Active users</span>
+          <span class="font-bold text-white">×</span>
+          <span class="text-xs font-bold px-2.5 py-1 rounded-full" style="background:#065f46; color:#d1fae5">Identifications / user / week</span>
+          <span class="font-bold text-white">=</span>
+          <span class="font-bold text-white text-sm">WVO / week</span>
+        </div>
+
+        <!-- Formula row: values -->
+        <div class="flex items-center gap-2 flex-wrap">
+          <span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:#fef9c3; color:#92400e; border:1px solid #fde68a">Assumption — adjust this</span>
+          <span class="font-bold text-slate-300 text-sm">10 users</span>
+          <span class="font-bold" style="color:#475569">×</span>
+          <span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:#fef9c3; color:#92400e; border:1px solid #fde68a">Assumption — adjust this</span>
+          <span class="font-bold text-slate-300 text-sm">5 checks / week</span>
+          <span class="font-bold" style="color:#475569">=</span>
+          <span class="font-black text-white text-xl">50 WVO / wk</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right: Value & Annual -->
+    <div class="flex flex-col gap-4" style="flex:1">
+
+      <!-- Weekly value -->
+      <div class="rounded-xl p-5 flex flex-col justify-between" style="background:#065f46; flex:1">
+        <p class="text-xs font-bold tracking-widest uppercase mb-3" style="color:#6ee7b7">Value Per Week</p>
+        <div>
+          <p class="text-xs mb-2" style="color:#a7f3d0">
+            50 ops ×
+            <span class="font-semibold px-1.5 py-0.5 rounded" style="background:#047857; color:#d1fae5">20 min saved</span>
+            ×
+            <span class="font-semibold px-1.5 py-0.5 rounded" style="background:#047857; color:#d1fae5">$25/hr rate</span>
+          </p>
+          <p class="font-black text-white" style="font-size:2.6rem; line-height:1">$417</p>
+          <p class="text-sm mt-1" style="color:#6ee7b7">per week</p>
+        </div>
+        <p class="text-xs mt-2" style="color:#a7f3d0">20 min and $25/hr are adjustable baseline assumptions</p>
+      </div>
+
+      <!-- Annual value -->
+      <div class="rounded-xl p-5 flex flex-col justify-between" style="background:#1e293b; flex:0.85">
+        <p class="text-xs font-bold tracking-widest uppercase mb-3" style="color:#64748b">Annual Projection</p>
+        <div>
+          <p class="text-xs mb-2" style="color:#64748b">$417/wk × 52 weeks</p>
+          <p class="font-black text-white" style="font-size:2.2rem; line-height:1">$21,667</p>
+          <p class="text-sm mt-1" style="color:#64748b">value reclaimed per year</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
